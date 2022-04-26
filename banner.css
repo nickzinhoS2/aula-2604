@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.banner{
+    background-image:url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100vh;
+}
+
+.navbar-light .navbar-brand{
+    color: #ffebd2;
+    font-size: 50px;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffebd2;
+    font-size: 15px;
+}
+
+.paragrafo-img{
+    display: grid;
+    grid-template-areas:
+    "paragrafo circulo";
+    grid-template-columns: 1fr 1.5fr;
+    
+}
+
+.paragrafo{
+    align-self: center;
+     color: #ffebd2;
+     font-size: 30px;
+     margin-left: 30px;
+}
+
+.circulo{
+    background-image: url(nicolau.jfif);
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
